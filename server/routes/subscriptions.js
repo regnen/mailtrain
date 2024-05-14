@@ -51,7 +51,12 @@ router.getAsync('/export/:listId/:segmentId', passport.loggedIn, async (req, res
     const stringifier = stringify({
         columns,
         header: true,
-        delimiter: ','
+        delimiter: ',',
+        cast: {
+            date: function(value) {
+                return value.toISOString()
+            }
+        }
     });
 
     stringifier.pipe(res);
