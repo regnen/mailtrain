@@ -13,7 +13,8 @@ const DateFormat = {
 const dateFormatStrings = {
     'us': 'MM/DD/YYYY',
     'eur': 'DD/MM/YYYY',
-    'intl': 'YYYY-MM-DD'
+    'intl': 'YYYY-MM-DD',
+    'iso': '2024-05-14T20:00:17.265Z'
 };
 
 const birthdayFormatStrings = {
