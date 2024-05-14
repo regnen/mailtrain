@@ -7,14 +7,15 @@ const birthdayYear = 2000;
 const DateFormat = {
     US: 'us',
     EU: 'eur',
-    INTL: 'intl'
+    INTL: 'intl',
+    ISO: 'iso'
 };
 
 const dateFormatStrings = {
     'us': 'MM/DD/YYYY',
     'eur': 'DD/MM/YYYY',
     'intl': 'YYYY-MM-DD',
-    'iso': '2024-05-14T20:00:17.265Z'
+    'iso': 'YYYY-MM-DDTHH:mm:ss.SSSZ'
 };
 
 const birthdayFormatStrings = {
